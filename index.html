@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" type="text/css" href="./dist/main.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+            <title>Bookshop</title>
+    </head>
+    <body>
+        <header class="header">
+            <h1 class="logo">Bookshop</h1>
+                <ul class="header-ul">
+                    <li class="header-ul-link"><a href="#" style="color: #1C2A39; font-weight: 900;">BOOKS</a></li>
+                    <li class="header-ul-link"><a href="#">AUDIOBOOKS</a></li>
+                    <li class="header-ul-link"><a href="#">STATIONERY & GIFTS</a></li>
+                    <li class="header-ul-link"><a href="#">BLOG</a></li>
+                </ul>
+            <div class="user">
+                <img class="user-espace" src="svg/user.svg" alt="icone">
+                <img class="user-espace" src="svg/search.svg" alt="icone">
+                <div class="user-espace user-espace-active"><img  src="svg/shop-bag.svg" alt="icone"></div><span class="bag-span"></span>
+            </div>
+        </header>
+        <main>
+            <div class="slider">
+                <div class="slider-images">
+                    <img class="slider-image slider-image-active" src="./images/banner-1.jpg" alt="banner">
+                    <img class="slider-image" src="./images/banner-2.jpg" alt="banner">
+                    <img class="slider-image" src="./images/banner-3.jpg" alt="banner">
+                </div>
+                <div class="slider-points">
+                    <span><img class="slider-point slider-point-active" src="svg/Ellipse.svg"></span>
+                    <span><img class="slider-point" src="svg/Ellipse.svg"></span>
+                    <span><img class="slider-point" src="svg/Ellipse.svg"></span>
+                </div>
+                <div class="promo"> 
+                    <div class="promo-1">
+                        <a href=""><img src="./images/promo-1.jpg" alt="image"></a>  
+                    </div>
+                    <div class="promo-2">
+                        <a href=""><img src="./images/promo-2.jpg" alt="image"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="production">
+                <div class="production-categories">
+                    <ul class="production-categories-list">
+                    <li class="production-categories-list-link production-categories-list-link-active">Architecture</li>                
+                    <li class="production-categories-list-link">Art & Fashion</li>
+                    <li class="production-categories-list-link">Biography</li>
+                    <li class="production-categories-list-link">Business</li>
+                    <li class="production-categories-list-link">Crafts & Hobbies</li>
+                    <li class="production-categories-list-link">Drama</li>
+                    <li class="production-categories-list-link">Fiction</li>
+                    <li class="production-categories-list-link">Food & Drink</li>
+                    <li class="production-categories-list-link">Health & Wellbeing</li>
+                    <li class="production-categories-list-link">History & Politics</li>
+                    <li class="production-categories-list-link">Humor</li>
+                    <li class="production-categories-list-link">Poetry</li>
+                    <li class="production-categories-list-link">Psychology</li>
+                    <li class="production-categories-list-link">Science</li>
+                    <li class="production-categories-list-link">Technology</li>
+                    <li class="production-categories-list-link">Travel & Maps</li>
+                    </ul>
+                </div>
+                        <div class="book">
+                            <div class="books-list"></div>    
+                        </div>
+            </div><!--production-->
+                <div class="load-more-button"></div>
+        </main>
+            <script src="./dist/main.js"></script>
+    </body>
+</html>
