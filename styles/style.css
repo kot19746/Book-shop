@@ -214,3 +214,29 @@ a:active, a:hover {
   margin-left: 26vw;
   text-align: center; 
 }
+
+@media screen and (max-width: 1300px) {
+  .header-ul {
+    display: block;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  .promo {
+    margin-left: 80%;
+    display: none;
+  }
+
+  .production {
+    display: block;
+    margin-top: -100px;
+  }
+
+  .production-categories-list, .production-categories {
+    width: 170%;
+  }
+
+  .slider {
+    width: 76em;
+  }
+}
