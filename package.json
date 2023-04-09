@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kot19746/Bookshop"
+    "url": "https://github.com/kot19746/Book-shop"
   },
   "author": "Konstantin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kot19746/Bookshop"
+    "url": "https://github.com/kot19746/Book-shop"
   },
-  "homepage": "https://github.com/kot19746/Bookshop",
+  "homepage": "https://github.com/kot19746/Book-shop",
   "devDependencies": {
     "css-loader": "^6.7.3",
     "css-minimizer-webpack-plugin": "^4.2.2",
